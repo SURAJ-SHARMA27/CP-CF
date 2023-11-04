@@ -23,6 +23,19 @@ for(int i=0;i<t;i++){
     cin>>st;
     arr[i]=st;
 }
+vector<vector<int>>p;
+for(int i=0;i<t;i++){
+    string st;
+    st=arr[i];
+    int sum=0;
+    vector<int>temp;
+    for(i=0;i<st.length();i++){
+    sum=sum+(st[i]-'0');
+    temp.push_back(sum);
+    }
+    p.push_back(temp);
+}
+
 // for(int i=0;i<t;i++)cout<<arr[i]<<endl;
 int ans=0;
 for(int i=0;i<t;i++){
