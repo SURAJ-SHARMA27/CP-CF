@@ -35,7 +35,6 @@ for(int i=0;i<t;i++){
     }
     p.push_back(temp);
 }
-
 // for(int i=0;i<t;i++)cout<<arr[i]<<endl;
 int ans=0;
 for(int i=0;i<t;i++){
