@@ -2,13 +2,12 @@
 using namespace std;
 int main()
 {
-int n;
-cin>>n;
-if(n%2==0){
-    cout<<"Mahmoud"<<endl;
-}
-else{
-    cout<<"Ehab"<<endl;
+int t;
+cin>>t;
+while(t--){
+int a,b,c,d;
+cin>>a>>b>>c>>d;
+cout<<b<<" "<<c<<" "<<c<<endl;
 }
 return 0;
 }
