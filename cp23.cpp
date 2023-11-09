@@ -5,9 +5,9 @@ int main()
 int t;
 cin>>t;
 while(t--){
-int a,b,c,d;
-cin>>a>>b>>c>>d;
-cout<<b<<" "<<c<<" "<<c<<endl;
+int a,b,c;
+cin>>a>>b>>c;
+cout<<max(a,max(b,c));
 }
 return 0;
 }
