@@ -18,7 +18,7 @@ c=c-b;
 b=0;
 if((2*a)<(b+c+d)){
     ans=ans+(2*a);
-    if(((b+c+d)-(2*a)-1)>0){
+    if(((b+c+d)-(2*a))>0){
         ans=ans+1;
     }
     cout<<ans<<endl;
@@ -35,7 +35,7 @@ b=b-c;
 c=0;
 if((2*a)<(b+c+d)){
     ans=ans+(2*a);
-    if(((b+c+d)-(2*a)-1)>0){
+    if(((b+c+d)-(2*a))>0){
         ans=ans+1;
     }
     cout<<ans<<endl;
