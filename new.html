@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Smiley Marker</title>
+  <style>
+    /* Style for list items */
+    .styled-list {
+      list-style-type: none; /* Remove default list item marker */
+      margin-bottom: 10px; /* Add spacing between list items */
+    }
+
+    /* Style for the list items */
+    .styled-list li {
+      padding-left: 30px; /* Add space for the smiley face marker */
+      position: relative;
+      font-size: 18px; /* Adjust font size as needed */
+    }
+
+    /* Style for the smiley face marker */
+    .styled-list li::before {
+      content: '\1F60A'; /* HTML entity for the smiley face emoji */
+      position: absolute;
+      left: 0;
+      font-size: 24px; /* Adjust font size as needed */
+    }
+  </style>
+</head>
+<body>
+
+  <ul class="styled-list">
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Grapes</li>
+  </ul>
+
+</body>
+</html>
