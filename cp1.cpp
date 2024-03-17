@@ -4,7 +4,7 @@ int main()
 {
 int t;
 cin>>t;
- //this is one comment
+ //
 int p=0;
 int n=0;
 while(t--){
