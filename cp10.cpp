@@ -22,7 +22,8 @@ while(t--){
     for(int i=0;i<st.size();i++){
         ans=ans+st[i].size();
         if(to_string(num)==st[i]){
-        cout<<ans<<endl;
+        // cout<<ans<<endl;
+        cout<<"This is the answer"<<ans<<endl;
         break;
         }
     }
